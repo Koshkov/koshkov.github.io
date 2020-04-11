@@ -5,7 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/rss/channel">
 <html>
-<body style="background-image=url(/Photographs/DNCS2721.jpg);">
+<body style="background-image:url(/Photographs/DNCS2721.jpg);">
 	<p style="background-color:white;font-family:courier;font-size:18pt;">
 	<xsl:for-each select="item">
 		<xsl:value-of select="title"/><br/>
