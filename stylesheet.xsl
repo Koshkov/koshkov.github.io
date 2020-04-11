@@ -6,7 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/rss/channel">
 <html>
 <body style="background-image:url(/Photographs/DSCN2721.jpg);">
-	<h1 style="background-color:red;font-family:courier;border:4px solid black">
+	<h1 style="background-color:red;font-family:courier;border:4px solid black;color:white;padding:15px;">
 		RSS Feed
 	</h1>
 	<p style="background-color:white;font-family:courier;font-size:18pt;border:4px solid black;padding:10px;">
