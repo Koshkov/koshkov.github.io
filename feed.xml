@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom>
-	<channel>
-	<title>:StrangeLove</title>
+<channel>
+	<title>StrangeLove</title>
 	<link>https://koshkov.github.io</link>
 	<description>Blogs and projects</description>
 	<language>en-us</language>
@@ -18,6 +18,6 @@
 		<guide>https://koshkov.github.io/Post2020-04-10.html</guide>
 		<description>End Times Blog</description>
 	</item>
-	<atom:link href="https://koshkov.github.io/feed.xml" rel="self" type="application/rss+xml" />
-	</channel>
+	<atom:link href="https://koshkov.github.io/feed.xml" rel="self" type="application/rss+xml"/>												  
+</channel>
 </rss>
