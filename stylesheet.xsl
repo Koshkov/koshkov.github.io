@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <head>
 	<title>RSS Feed</title>
 </head>
-<body style="background-image:url(/Photographs/DSCN2721.jpg);">
+<body>
 	<h1>
 		RSS Feed
 	</h1>
