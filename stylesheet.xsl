@@ -5,9 +5,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/channel">
 <html>
-<head>
-	<title>RSS Feed</title>
-</head>
 <body>
 	<xsl:for-each select="item">
 		<xsl:value-of select="title"/>
