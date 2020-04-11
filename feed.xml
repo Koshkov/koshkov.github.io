@@ -11,13 +11,14 @@
 		<link>https://koshkov.github.io</link>
 		<url>https://koshkov.github.io/Photographs/DSCN3415.JPG</url>
 	</image>
+	
+	<atom:link href="https://koshkov.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 	<item>
 		<title>Why have a website?</title>
 		<pubDate>Fri, 10 Apr 2020 18:07:15 CST</pubDate>
 		<link>https://koshkov.github.io/Post2020-04-10.html</link>
 		<guid>https://koshkov.github.io/Post2020-04-10.html</guid>
 		<description>End Times Blog</description>
-	</item>		
-	<atom:link href="https://koshkov.github.io/feed.xml" rel="self" type="application/rss+xml"/>	
+	</item>	
 </channel>
 </rss>
