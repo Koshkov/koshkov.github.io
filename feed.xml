@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom>
 	<channel>
 	<title>:StrangeLove</title>
 	<link>https://koshkov.github.io</link>
@@ -13,10 +13,11 @@
 	</image>
 	<item>
 		<title>Why have a website?</title>
-		<pubDate>Fri,10 Apr 2020 18:07:15 CST</pubDate>
+		<pubDate>Fri, 10 Apr 2020 18:07:15 CST</pubDate>
 		<link>https://koshkov.github.io/Post2020-04-10.html</link>
+		<guide>https://koshkov.github.io/Post2020-04-10.html</guide>
 		<description>End Times Blog</description>
-		<author>LawrenceM@protonmail.com</author>
 	</item>
+	<atom:link href="https://koshkov.github.io/feed.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
