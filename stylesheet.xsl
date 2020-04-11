@@ -16,9 +16,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		<xsl:value-of select="pubDate"/><br/>
 		<xsl:value-of select="description"><br/>
 		<xsl:value-of select="link"/><br/>
-		</p>
 	</xsl:for-each>
-	
+	</p>
 </body>
 </html>
 </xsl:template>
