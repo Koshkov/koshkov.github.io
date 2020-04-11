@@ -6,7 +6,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/rss/channel">
 <html>
 <body style="background-image:url(/Photographs/DSCN2721.jpg);">
-	<p style="background-color:white;font-family:courier;font-size:18pt;">
+	<h1 style="background-color:red;font-family:courier;border:4px solid black">
+		RSS Feed
+	</h1>
+	<p style="background-color:white;font-family:courier;font-size:18pt;border:4px solid black;padding:10px;">
 	<xsl:for-each select="item">
 		<xsl:value-of select="title"/><br/>
 		<xsl:value-of select="pubDate"/><br/>
