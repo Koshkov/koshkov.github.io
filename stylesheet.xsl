@@ -15,6 +15,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			padding:15px;
 			border: 4px solid black;
 		}
+		p{
+			font-family:courier;
+			color: black;
+			background-color: white;
+		}
+		
 	</style>
 </head>
 <body style="background-image:url(/Photographs/DSCN2721.jpg);">
