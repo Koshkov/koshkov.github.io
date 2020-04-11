@@ -7,7 +7,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <html>
 <body style="background-image:url(/Photographs/DSCN2721.jpg);">
 	<h1 style="background-color:red;font-family:courier;border:4px solid black;color:white;padding:15px;">
-		RSS Feed
+		RSS Feed<br/>
+		:Get updates as soon as the come out
 	</h1>
 	
 	<xsl:for-each select="item">
