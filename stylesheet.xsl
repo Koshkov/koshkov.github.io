@@ -7,9 +7,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <html>
 <head>
 	<title>RSS Feed</title>
+	<style>
+		h1{
+			font-family:courier;
+			color: white;
+			background-color: red;
+			padding:15px;
+			border: 4px solid black;
+		}
+	</style>
 </head>
 <body style="background-image:url(/Photographs/DSCN2721.jpg);">
-	<h1 style="font-family:courier;background-color:red;color:white;">
+	<h1>
 		RSS Feed
 	</h1>	
 </body>
