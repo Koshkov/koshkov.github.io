@@ -20,7 +20,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <body style="background-image:url(/Photographs/DSCN2721.jpg);">
 	<h1>
 		RSS Feed
-	</h1>	
+	</h1>
+	<p> Blog 1
+	<xsl:value-of select="https://koshkov.github.io/Post2020-04-10.html"/>
+	</p>
 </body>
 </html>
 </xsl:template>
