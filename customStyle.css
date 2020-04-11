@@ -1,0 +1,44 @@
+body{
+	background-image:url("Photographs/DSCN2721.jpg");
+}
+
+h1{
+	color:white;
+	font-family:courier;
+	border:4px solid black;
+	padding:10px;
+}
+
+p{
+	color: black;
+	font-family:courier;
+	font-size:18pt;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:red;
+}
+
+li{
+	float:left;
+	font-weight:bold;
+}
+
+li a{
+	display: block;
+	color: white;
+	font-family:courier;
+	padding: 10px;
+	text-align:center;
+	text-decoration:none;
+	background-color:red;
+}
+
+li a:hover{
+	color:black;
+	background-color:white;
+}
