@@ -9,10 +9,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<title>RSS Feed</title>
 </head>
 <body>
-	<xsl:for-each select="item">
+	<xsl:for-each select="channel">
 		<xsl:value-of select="title"/>
 		<xsl:value-of select="link"/>
-		<xsl:value-of select="pubDate"/>
 	</xsl:for-each>
 </body>
 </html>
