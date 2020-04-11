@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <body>
 	<xsl:for-each select="item">
 		<xsl:value-of select="title"/>
-		<xsl:value-of select="link"/>
+		<xsl:value-of select="pubDate"/>
 	</xsl:for-each>
 </body>
 </html>
