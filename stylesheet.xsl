@@ -6,11 +6,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/rss/channel">
 <html>
 <body>
-	<p>Buy my water filters</p>
+	<p style="background-color:white;font-family:courier;font-size:18pt;">
 	<xsl:for-each select="item">
 		<xsl:value-of select="title"/><br/>
 		<xsl:value-of select="pubDate"/><br/>
+		<xsl:value-of select="link"/><br/>
 	</xsl:for-each>
+	</p>
 </body>
 </html>
 </xsl:template>
