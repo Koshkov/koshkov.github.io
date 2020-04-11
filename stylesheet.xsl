@@ -13,6 +13,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:for-each select="item">
 		<xsl:value-of select="title"/><br/>
 		<xsl:value-of select="pubDate"/><br/>
+		<xsl:value-of select="description"><br/>
 		<xsl:value-of select="link"/><br/>
 	</xsl:for-each>
 	</p>
