@@ -20,9 +20,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 		</h2>
 		<xsl:value-of select="pubDate"/><br/>
 		<xsl:value-of select="description"/><br/>
-		<a href=<xsl:value-of select="link"/> >
-			Click Here
-		</a>
+		<xsl:value-of select="link"/> 
 		<br/>
 		</p>
 	</xsl:for-each>
