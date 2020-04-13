@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:for-each select="item">
 	
 		<p style="background-color:white;font-family:courier;font-size:18pt;border:4px solid black;padding:5px;">
-		<h2 style="background-color:red;font-family:courier;border:4px solid black;padding:5px;color:white;">
+		<h2 style="background-color:red;font-family:courier;border:4px solid black;padding:5px;color:white;overflow:hidden;">
 			<xsl:value-of select="title"/>
 		</h2>
 		<xsl:value-of select="pubDate"/><br/>
