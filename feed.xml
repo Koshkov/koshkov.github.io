@@ -19,5 +19,26 @@
 			Very important!
 		</description>
 	</item>	
+	<item>
+		<title>RSS Test</title>
+		<pubDate>Fri, 13 Jun 2020 18:07:15 CST</pubDate>
+		<link>https://koshkov.github.io/Post2020-04-10.html</link>
+		<guid>https://koshkov.github.io/Post2020-04-10.html</guid>
+		<description>
+			<p>
+				This is a test to see if my RSS feed updates. No reason it shouldn't. You can read
+				my blog posts at <a>koshkov.github.io/blog</a>
+			</p>
+			<p>
+				If you don't have an RSS reader or are looking for a different service,
+				I would highly reccomend newsboat. Newsboat is terminal based RSS reader that 
+				can be found in most Linux repos.
+			</p>
+			<p>
+				It will display all blog posts in plain text. If you like reading your news in a
+				a minimal environment, newsboat is for you. That is all for now.
+			</p>
+		</description>
+	</item>	
 </channel>
 </rss>
