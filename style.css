@@ -1,0 +1,120 @@
+body{
+	background-image:url("img/DSCN2721.jpg");
+	font-family: courier, monospace;
+}
+
+h1{
+	color:white;
+	background-color: red;
+	border:4px solid black;
+	padding:10px;
+}
+
+p{
+	font-size:18pt;
+}
+
+li{
+	font-weight:bold;
+}
+
+li a{
+	display: block;
+	color: white;
+	padding: 10px;
+	text-align:center;
+	text-decoration:none;
+	background-color:red;
+}
+
+li a:hover{
+	color:black;
+	background-color:white;
+}
+
+.gal-item{
+	display: block;
+	padding: 5px;
+	width: 100%;
+}
+
+.grid{
+	column-count: 3;
+	column-gap: 10px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.home-block{
+	background-color:white;
+	margin-top: 4em;
+	margin-bottom: 4em;
+	padding: 0.5em;
+}
+
+.home-img{
+	float: left;
+	border: 4px solid black; 
+}
+
+nav a {
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 10pt;
+	font-weight: bold;
+	border: 4px solid black;
+	font-size; 14pt;
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+footer{
+	margin-top: 275px;
+	font-weight: bold;
+}
+
+footer ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:red;
+	font-size: 18pt;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+article{
+		margin: auto;
+		width: 75%;
+		padding: 56px;
+		background-color: white;
+		border: 4px solid black;
+}
+
+.snippet{
+	margin: auto;
+	background-color: white;
+	border: 4px solid black;
+	padding: 10px;
+}
+
+.snippet a{
+	color: black;
+	font-size: 18pt;
+}
+
+.snippet img{
+	border: 4px solid black;
+	width: 200px;
+	height: 200px;
+	float: right;
+	background-color: white;
+	padding: 10px;
+}
